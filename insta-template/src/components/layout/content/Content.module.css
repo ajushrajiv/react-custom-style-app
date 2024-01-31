@@ -1,0 +1,12 @@
+.maincontent{
+    background-color: aqua;
+}
+
+.maindiv{
+    display: flex;
+    align-items: center;
+}
+
+.leavespace{
+    padding: 4px;
+}

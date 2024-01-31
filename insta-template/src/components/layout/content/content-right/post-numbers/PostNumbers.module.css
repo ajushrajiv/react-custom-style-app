@@ -1,0 +1,16 @@
+.main{
+    margin-right: 12px;
+    margin-top: 16px;
+}
+
+.leavespace{
+    padding: 1px;
+}
+
+@media screen and (min-width: 320px){
+    .main{
+        width: 24%;  
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,21 @@
+.mainnavbar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.leavespace{
+    padding: 40px;
+}
+
+@media screen and (min-width: 320px){
+    .mainnavbar{
+        width: 100%;  
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        .rightnav{
+            width:50%;
+        }
+    }
+}
