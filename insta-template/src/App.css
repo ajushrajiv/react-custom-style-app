@@ -1,7 +1,11 @@
 .App{
-    margin: 40px;
+    margin: auto;
+    background-color: blanchedalmond;
 }
 
-
+.App-header{
+    display: flex;
+    justify-content: center;
+}
 
 

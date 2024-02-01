@@ -8,8 +8,7 @@ function Navbar(){
             <div className={styles.leftnav}>
                 <NavbarLeft />
             </div>
-            <div className={styles.leavespace}></div>
-            <div className={styles.leftnav}>
+            <div className={styles.rightnav}>
                 <NavbarRight />
             </div>
         </div>    
