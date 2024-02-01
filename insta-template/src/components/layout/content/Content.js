@@ -3,7 +3,6 @@ import styles from "./Content.module.css"
 import ContentRight from "./content-right/ContentRight";
 import ContentMiddle from "./content-middle/ContentMiddle";
 
-
 function Content(){
     return(
         <div>
