@@ -1,13 +1,12 @@
 .btn{
-   
-        padding: 4px 8px;
-        border-radius: 8px;
-        color: white;
-        background-color: rgb(193, 183, 193);
-        cursor: pointer;
-        &:hover {
-          background-color: rgb(155, 155, 169);
-        }
+      padding: 4px 8px;
+      border-radius: 8px;
+      color: white;
+      background-color: rgb(193, 183, 193);
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(155, 155, 169);
+      }
 }
 
 @media screen and (min-width: 320px){
