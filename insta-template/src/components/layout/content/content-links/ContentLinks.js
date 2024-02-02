@@ -3,12 +3,13 @@ import styles from "./ContentLinks.module.css";
 import ImageLinks from "./image-links/ImageLinks";
 
 function ContentLinks() {
+  
   return (
     <div className={styles.main}>
       {/*<StandardBtn text={"POSTS"} />
       <StandardBtn text={"REELS"} />
       <StandardBtn text={"TAGGED"} />*/}
-      <ImageLinks></ImageLinks>
+      <ImageLinks />
     </div>
   );
 }
