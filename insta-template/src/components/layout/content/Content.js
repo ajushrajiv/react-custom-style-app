@@ -27,9 +27,9 @@ function Content(){
 
             <div className={styles.leavespace}></div>
 
-            <div className={styles.maincontentmiddle}>
+            {/*<div className={styles.maincontentmiddle}>
                 <ContentMiddle /> 
-            </div> 
+    </div> */}
         </div>  
     );
 }
