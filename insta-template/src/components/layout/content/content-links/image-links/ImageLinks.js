@@ -7,25 +7,25 @@ import React, {useState} from 'react'
 function ImageLinks(){
 
     const [showReels, setShowReels] = useState(true);
-    const [showPosts, setShowPosts] = useState(true);
+    const [showTags, setShowTags] = useState(true);
 
 
     const reels = [image2,image2,
         image2,image2,
         image2,image2]
 
-    const posts = [image3,image3,
+    const tags = [image3,image3,
         image3,image3,
         image3,image3]
 
 
     return(
         <div>
-            <StandardBtn text={"REELS"} onclick={() => setShowReels(!showReels)&&setShowPosts(showPosts)}>
+            <StandardBtn text={"REELS"} onclick={() => setShowReels(!showReels)&&setShowTags(showTags)}>
                 {showReels ? 'Hide Reels' : 'showReels'}
             </StandardBtn >
-            <StandardBtn text={"POSTS"} onclick={() => setShowPosts(!showPosts)&&setShowReels(showReels)}>
-                {showPosts ? 'Hide Posts' : 'showPosts'}
+            <StandardBtn text={"TAGS"} onclick={() => setShowTags(!showTags)&&setShowReels(showReels)}>
+                {showTags ? 'Hide Tags' : 'showTags'}
             </StandardBtn >
 
             {showReels && (
@@ -36,10 +36,10 @@ function ImageLinks(){
                 </div>
             )}
 
-            {showPosts && (
+            {showTags && (
                 <div className={styles.imgstyle}>
-                    {posts.map(function(post,index){
-                        return<img src={post} key={index} alt=""/>
+                    {tags.map(function(pag,index){
+                        return<img src={pag} key={index} alt=""/>
                     })}
                 </div>
             )}
