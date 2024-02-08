@@ -7,7 +7,6 @@ function ContentLinks() {
   return (
     <div className={styles.main}>
       <ImageLinks />
-      <PostLinks />
     </div>
   );
 }

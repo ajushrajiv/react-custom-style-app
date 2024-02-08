@@ -1,4 +1,5 @@
 import StandardBtn from "../../../../common/buttons/standard-btn/StandardBtn";
+import PostLinks from "../post-links/PostLinks";
 import styles from "./ImageLinks.module.css"
 import image2 from "./image2.jpg"
 import image3 from "./image3.jpg"
@@ -20,13 +21,16 @@ function ImageLinks(){
 
 
     return(
-        <div>
-            <StandardBtn text={"REELS"} onclick={() => setShowReels(!showReels)&&setShowTags(showTags)}>
-                {showReels ? 'Hide Reels' : 'showReels'}
-            </StandardBtn >
-            <StandardBtn text={"TAGS"} onclick={() => setShowTags(!showTags)&&setShowReels(showReels)}>
-                {showTags ? 'Hide Tags' : 'showTags'}
-            </StandardBtn >
+        <div className="main">
+                <StandardBtn text={"REELS"} onclick={() => setShowReels(!showReels)&&setShowTags(showTags)}>
+                    {showReels ? 'Hide Reels' : 'showReels'}
+                </StandardBtn >
+
+                <StandardBtn text={"TAGS"} onclick={() => setShowTags(!showTags)&&setShowReels(showReels)}>
+                    {showTags ? 'Hide Tags' : 'showTags'}
+                </StandardBtn >
+
+                <PostLinks />
 
             {showReels && (
                 <div className={styles.imgstyle}>
@@ -43,6 +47,7 @@ function ImageLinks(){
                     })}
                 </div>
             )}
+
         </div>
     );
 }
