@@ -9,9 +9,3 @@
     height: auto;
     border-radius: 8px;
 }
-
-@media screen and (min-width: 320px){
-    .imgstyle{
-       
-    }
-}

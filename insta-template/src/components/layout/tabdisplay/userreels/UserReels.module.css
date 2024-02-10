@@ -9,11 +9,3 @@
     height: auto;
     border-radius: 8px;
 }
-
-@media screen and (min-width: 320px){
-    .imgstyle{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
-        gap: 10px;
-    }
-}
