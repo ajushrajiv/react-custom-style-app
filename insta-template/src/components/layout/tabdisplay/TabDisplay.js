@@ -9,7 +9,6 @@ import UserPost from "./userpost/UserPost";
 import UserReels from "./userreels/UserReels";
 import UserTags from "./usertags/UserTags";
 
-
 function TabDisplay(){
     const [value,setValue] = useState('1');
 
