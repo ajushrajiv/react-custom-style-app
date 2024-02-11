@@ -7,7 +7,6 @@ import ContentRight from "./components/layout/content/content-right/ContentRight
 import TabDisplay from "./components/layout/tabdisplay/TabDisplay";
 import Footer from "./components/layout/footer/Footer";
 import LoginForm from "./components/common/forms/login-form/LoginForm";
-import NavbarRight from "./components/layout/navbar/navbar-right/NavbarRight";
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
     <Navbar />
       <Routes>
         <Route path="/login" element={<LoginForm />}/> 
-        <Route path="/" element={
+        <Route path="/*" element={
           <>
             <Content>
               <Routes>
